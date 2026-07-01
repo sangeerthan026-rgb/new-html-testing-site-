@@ -1,1 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <center>
+        <title>TNPSC APPLICATION</title>
+        </center>
+    </head>
+    <body>
 
+    <table border="0" cellpadding="5" cellspacing="0" width="100%" bgcolor="white" style="border-bottom: 2px solid silver; padding: 10px 0;">
+        <tr>
+            <td width="90" align="left" valign="middle">
+                
+                <img src="Tamil Logo PNG Vector (EPS) Free Download.jpg" alt="TNPSC Logo" width="80" height="80" style="display: block;">
+            </td>
+            
+            
+            <td width="15"></td>
+            
+            
+            <td align="left" valign="middle">
+                <font size="6" face="Arial" color="lightblue"><b>TNPSC APPLICATION FORM</b></font><br>
+                <font size="2" face="Arial" color="dimgray">ONLINE PORTAL DEMO — 2026</font>
+            </td>
+        </tr>
+    </table>
+        <form action="/submit-data" method="POST" enctype="multipart/form-data">
+            <table width="600" border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; font-family: Arial, sans-serif;">
+                <tr bgcolor="white">
+                    <td colspan="2"><b>Candidate Registration Details</b></td>
+        </tr>
+        <tr>
+            <td width="200"><label for="candidate-name">Full Name:</label></td>
+            <td><input type="text" id="candidate-name" name="name" required style="width: 90%;"></td>
+        </tr>
+        <tr>
+            <td><label for="dob">Date of Birth:</label></td>
+            <td><input type="date" id="dob" name="dob" required></td>
+        </tr>
+        <tr>
+            <td>Gender:</td>
+            <td>
+                <input type="radio" id="m" name="gender" value="Male"> <label for="m">Male</label>
+                <input type="radio" id="f" name="gender" value="Female"> <label for="f">Female</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="photo">Upload Photo:</label></td>
+            <td><input type="file" id="photo" name="user_photo" accept="image/jpeg" required></td>
+        </tr>
+        </tr>
+    </center>
+</table>
+
+    <table width="600" border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; font-family: Arial, sans-serif;">
+        
+        
+        <tr>
+            <td for="community">Community Category</td>
+            <td>
+                <select id="community" name="category" style="width: 93%;">
+                    <option value="">-- Choose Option --</option>
+                    <option value="GT">General Turn</option>
+                    <option value="BC">Backward Class</option>
+                    <option value="MBC">Most Backward Class</option>
+                    <option value="SC">Scheduled Caste</option>
+                </select>
+            </td>
+        </tr>
+
+        
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="Submit Application" style="padding: 6px 15px; cursor: pointer;">
+                &nbsp;&nbsp;
+                <input type="reset" value="Clear All" style="padding: 6px 15px; cursor: pointer;">
+            </td>
+        </tr>
+
+    </table>
+
+</form>
+        <tr>
+            <td><label for="sign-upload">Upload Signature:</label></td>
+            <td>
+                <input type="file" id="sign-upload" name="candidate_signature" accept="image/jpeg" required>
+                <br>
+                <font size="1" color="dimgray">Format: JPG/JPEG only (10KB - 20KB)</font>
+            </td>
+        </tr>
+        <tr bgcolor="white">
+            <td colspan="2">
+                <input type="checkbox" id="declare" name="agreement" value="yes" required>
+                <label for="declare">
+                    <font size="2">In this form all are true and correct to the best of my knowledge.</font>
+                </label>
+            </td>
+        </tr>
+</form>
+<br><br>
+    <hr size="1" color="silver">
+    <table width="100%" border="0" cellpadding="10" cellspacing="0">
+        <tr>
+            <td align="center">
+                <font size="2" face="Arial" color="dimgray">
+                    Official Application Form Demo Interface — Tamil Nadu Recruitment Guidelines.<br>
+                     2026 Registration Portal. All Rights Reserved.
+                </font>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
