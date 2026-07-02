@@ -24,11 +24,15 @@
             </td>
         </tr>
     </table>
+    <center>
         <form action="/submit-data" method="POST" enctype="multipart/form-data">
             <table width="600" border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; font-family: Arial, sans-serif;">
                 <tr bgcolor="white">
-                    <td colspan="2"><b>Candidate Registration Details</b></td>
-        </tr>
+                    <td colspan="2"><b><center>Candidate Registration Details</center></b></td>
+                </tr>
+            
+        </form>
+    </center>
         <tr>
             <td width="200"><label for="candidate-name">Full Name:</label></td>
             <td><input type="text" id="candidate-name" name="name" required style="width: 90%;"></td>
@@ -51,8 +55,7 @@
         </tr>
     </center>
 </table>
-
-    <table width="600" border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; font-family: Arial, sans-serif;">
+        <table width="600" border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; font-family: Arial, sans-serif;">
         
         
         <tr>
@@ -67,17 +70,7 @@
                 </select>
             </td>
         </tr>
-
-        
-        <tr>
-            <td colspan="2" align="center">
-                <input type="submit" value="Submit Application" style="padding: 6px 15px; cursor: pointer;">
-                &nbsp;&nbsp;
-                <input type="reset" value="Clear All" style="padding: 6px 15px; cursor: pointer;">
-            </td>
-        </tr>
-
-    </table>
+          </table>
 
 </form>
         <tr>
@@ -96,6 +89,49 @@
                 </label>
             </td>
         </tr>
+        <tr>
+            </tr><table>
+                <td width="220"><label for="notification">Notification No. / Year:</label></td>
+                <td>
+                    <select id="notification" name="notification_details" style="width: 93%;" required>
+                        <option value="">-- Select Active Notification --</option>
+                        <option value="01_2026">01/2026 — Combined Civil Services Examination-I (Group I Services)</option>
+                        <option value="02_2026">02/2026 — Combined Civil Services Examination-IV (Group IV Services)</option>
+                        <option value="03_2026">03/2026 — Combined Engineering Subordinate Services</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Service Group Type:</td>
+                <td>
+                    <input type="radio" id="g1" name="group_type" value="Group 1" required> <label for="g1">Group I</label>
+                    <input type="radio" id="g2" name="group_type" value="Group 2"> <label for="g2">Group II /</label>
+                    <input type="radio" id="g4" name="group_type" value="Group 4"> <label for="g4">Group IV</label>
+                </td>
+            </tr>
+        </table>
+            <tr>
+                <table>
+                <td><label for="exam-center">Preferred Exam District:</label></td>
+                <td>
+                    <select id="exam-center" name="preferred_center" style="width: 93%;" required>
+                        <option value="">-- Choose Examination Center --</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Coimbatore">Coimbatore</option>
+                        <option value="Madurai">Madurai</option>
+                        <option value="Trichy">Tiruchirappalli</option>
+                        <option value="Salem">Salem</option>
+                        <option value="Tirunelveli">Tirunelveli</option>
+                    </select>
+                </td>
+            </tr>
+            </table>
+            <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="Submit Application" style="padding: 6px 15px; cursor: pointer;">
+                <input type="reset" value="Clear All" style="padding: 6px 15px; cursor: pointer;">
+            </td>
+        </tr>
 </form>
 <br><br>
     <hr size="1" color="silver">
@@ -104,7 +140,33 @@
             <td align="center">
                 <font size="2" face="Arial" color="dimgray">
                     Official Application Form Demo Interface — Tamil Nadu Recruitment Guidelines.<br>
-                     2026 Registration Portal. All Rights Reserved.
+                         Helpdesk & Support Disclaimer
+                    "In case of any technical issues or application queries, please contact the TNPSC helpline via the official
+                                            toll-free number or email helpdesk listed on the main commission portal."
+                </font>
+            </td>
+        </tr>
+    </table>
+    <br><br>
+    <hr size="1" color="silver">
+    <table width="100%" border="0" cellpadding="10" cellspacing="0" style="font-family: Arial, sans-serif;">
+        <tr>
+            <td align="center">
+                <font size="2" color="dimgray">
+                    <b>Helpdesk & Application Verification:</b><br>
+                    For any queries or status verification regarding this submission, email us at: 
+                    <a href="mailto:helpdesk@tnpsc-demo.gov.in" style="color:red; font-weight: bold; text-decoration: none;">helpdesk@tnpsc-demo.gov.in</a>
+                </font>
+                <br><br>
+                
+                <font size="2" color="dimgray">
+                    <i>Note: Please quote your full name and Date of Birth in the subject line for faster profile verification.</i>
+                </font>
+                <br><br>
+                
+                <font size="1" color="gray">
+                    Official Application Form Demo Interface — Tamil Nadu Recruitment Guidelines.<br>
+                                           2026 Registration Portal. currently opened.
                 </font>
             </td>
         </tr>
