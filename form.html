@@ -16,9 +16,7 @@
             
             
             <td width="15"></td>
-            
-            
-            <td align="left" valign="middle">
+             <td align="left" valign="middle">
                 <font size="6" face="Arial" color="lightblue"><b>TNPSC APPLICATION FORM</b></font><br>
                 <font size="2" face="Arial" color="dimgray">ONLINE PORTAL DEMO — 2026</font>
             </td>
@@ -34,7 +32,7 @@
         </form>
     </center>
         <tr>
-            <td width="200"><label for="candidate-name">Full Name:</label></td>
+            <td width="200"><label for="candidate-name">Name:</label></td>
             <td><input type="text" id="candidate-name" name="name" required style="width: 90%;"></td>
         </tr>
         <tr>
@@ -90,22 +88,25 @@
             </td>
         </tr>
         <tr>
-            </tr><table>
-                <td width="220"><label for="notification">Notification No. / Year:</label></td>
+            <td> <table> 
+        </tr>
+            <td width="220"><label for="notification">Notification No. / Year:</label></td>
                 <td>
                     <select id="notification" name="notification_details" style="width: 93%;" required>
                         <option value="">-- Select Active Notification --</option>
-                        <option value="01_2026">01/2026 — Combined Civil Services Examination-I (Group I Services)</option>
-                        <option value="02_2026">02/2026 — Combined Civil Services Examination-IV (Group IV Services)</option>
-                        <option value="03_2026">03/2026 — Combined Engineering Subordinate Services</option>
+                        <option value="01_2026">01/2026 — Civil Services Examination-I (Group I Services)</option>
+                        <option value="02_2026">02/2026 — Civil Services Examination-IV (Group IV Services)</option>
+                        <option value="03_2026">03/2026 — Engineering Subordinate Services</option>
                     </select>
+                </table>
                 </td>
             </tr>
-            <tr>
+                  <tr>
+                    <table>
                 <td>Service Group Type:</td>
                 <td>
                     <input type="radio" id="g1" name="group_type" value="Group 1" required> <label for="g1">Group I</label>
-                    <input type="radio" id="g2" name="group_type" value="Group 2"> <label for="g2">Group II /</label>
+                    <input type="radio" id="g2" name="group_type" value="Group 2"> <label for="g2">Group II</label>
                     <input type="radio" id="g4" name="group_type" value="Group 4"> <label for="g4">Group IV</label>
                 </td>
             </tr>
